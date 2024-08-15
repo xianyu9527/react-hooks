@@ -1,0 +1,5 @@
+# 多包管理配置项,优先使用当前工作区中的包
+prefer-workspace-packages: true
+#
+packages:
+  - 'packages/*'
