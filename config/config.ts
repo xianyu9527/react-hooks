@@ -1,5 +1,4 @@
-// import { menus } from './hooks';
-// const packages = require('../packages/hooks/package.json')
+import { menus } from './hooks';
 export default {
   exportStatic: {},
   nodeModulesTransform: {
@@ -18,7 +17,7 @@ export default {
       'fusion',
     ],
   ],
-  title: '印客学院 encode hooks',
+  title: ' react hooks',
   mode: 'site',
   favicon: '/encode-hooks/avatar.png',
   logo: '/encode-hooks/avatar.png',
@@ -57,6 +56,6 @@ export default {
         path: '/guide',
       },
     ],
-    // '/hooks': menus,
+    '/hooks': menus,
   },
 };
